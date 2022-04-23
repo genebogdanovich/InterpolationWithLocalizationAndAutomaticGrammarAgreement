@@ -1,0 +1,56 @@
+{
+  "identifier" : "CDD4371E",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "A1123972",
+      "localizations" : [
+
+      ],
+      "name" : "Software Services",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "97886412",
+          "introductoryOffer" : {
+            "internalID" : "E3F928FF",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.subscription.id",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Subscription",
+          "subscriptionGroupID" : "A1123972",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}

@@ -6,11 +6,26 @@
 //
 
 import SwiftUI
+import StoreKit
+
+extension Product.SubscriptionPeriod {
+    var duration: String {
+        "\(value) \(unit.localizedDescription.lowercased())"
+    }
+}
 
 struct ContentView: View {
+    @EnvironmentObject private var store: Store
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Form {
+            if let product = store.product,
+               let subscriptionDuration = product.subscription?.subscriptionPeriod.duration,
+               let freeTrialDuration = product.subscription?.introductoryOffer?.period.duration {
+                
+                Text("\(freeTrialDuration) free, then \(product.displayPrice) per \(subscriptionDuration)")
+            }
+        }
     }
 }
 
