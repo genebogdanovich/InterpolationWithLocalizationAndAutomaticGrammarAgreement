@@ -9,8 +9,8 @@ import SwiftUI
 import StoreKit
 
 extension Product.SubscriptionPeriod {
-    var duration: String {
-        "\(value) \(unit.localizedDescription.lowercased())"
+    var duration: LocalizedStringKey {
+        "^[\(value) \(unit.localizedDescription.lowercased())](inflect: true)"
     }
 }
 

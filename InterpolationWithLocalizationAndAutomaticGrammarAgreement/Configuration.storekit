@@ -24,14 +24,14 @@
           "codeOffers" : [
 
           ],
-          "displayPrice" : "0.99",
+          "displayPrice" : "9.99",
           "familyShareable" : false,
           "groupNumber" : 1,
           "internalID" : "97886412",
           "introductoryOffer" : {
             "internalID" : "E3F928FF",
             "paymentMode" : "free",
-            "subscriptionPeriod" : "P1W"
+            "subscriptionPeriod" : "P2W"
           },
           "localizations" : [
             {
@@ -41,7 +41,7 @@
             }
           ],
           "productID" : "com.subscription.id",
-          "recurringSubscriptionPeriod" : "P1M",
+          "recurringSubscriptionPeriod" : "P2M",
           "referenceName" : "Subscription",
           "subscriptionGroupID" : "A1123972",
           "type" : "RecurringSubscription"
